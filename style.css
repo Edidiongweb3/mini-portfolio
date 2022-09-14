@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+}
+
+.music{
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+}
+
+.img{
+  position: absolute;
+  width: 399px;
+  height: 389px;
+  left: 17%;
+  bottom: 20%;
+  border-radius: 170px;
+
+}
+
+.content{
+  height: 18hv;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content h1{
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.content ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 30px;
+  font-weight: bold;
+}
+
+.content ul li a{
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  transition: .3s;
+}
+
+.content ul li a:hover{
+  color: palevioletred;
+}
+
+.main{
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main h1{
+  font-size: 100px;
+  letter-spacing:11px;
+  font-weight: bold;
+}
+
+h1:hover{
+  color: palevioletred;
+}
+
+.main h3{
+  font-size: 60px;
+  font-weight: 400px;
+  letter-spacing: 30px;
+  margin-bottom: 7px;
+}
+
+h3:hover{
+  color: palevioletred;
+}
+
+.main p{
+  font-size: 25px;
+  letter-spacing: 15px;
+}
+
+p:hover{
+  color: palevioletred;
+}
+
+.icon{
+  position: absolute;
+  height: 35px;
+  width: 80px;
+  text-align: center;
+  padding-top: 10%;
+  bottom: 50%;
+}
+
+.icon i{
+  display: inline-block;
+  margin: 15px 23px;
+  font-size: 20px;
+
+}
